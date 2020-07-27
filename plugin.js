@@ -70,10 +70,7 @@ function alexaHome(log, config, api) {
 
 alexaHome.prototype = {
   accessories: function(callback) {
-    // this.log("Accessories");
-    var accessories = [];
-    accessories.push(new AlexaService(this.name, this.log));
-    callback(accessories);
+    callback();
   }
 };
 
